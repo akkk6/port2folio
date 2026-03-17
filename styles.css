@@ -103,3 +103,25 @@ footer {
   .grid-2 { grid-template-columns: 1fr; }
   .nav { flex-direction: column; align-items: flex-start; gap: 12px; }
 }
+/* Projektiosio */
+.projects-section h2 {
+  margin-bottom: 10px;
+}
+
+/* Linkkinappi */
+.project-link {
+  margin-top: auto;
+  display: inline-block;
+  padding: 10px 14px;
+  background: var(--accent);
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.project-link:hover {
+  background: var(--accent-2);
+  transform: translateY(-2px);
+}
